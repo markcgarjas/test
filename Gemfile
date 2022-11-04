@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.4"
 gem "sprockets-rails"
 
 # Use mysql as the database for Active Record
-gem "mysql2", "~> 0.5"
+# gem "mysql2", "~> 0.5"
 
 gem 'devise'
 
@@ -70,8 +70,8 @@ end
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.4'
   # gem 'rails_12factor', '0.0.2'
-
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
 
+ 
